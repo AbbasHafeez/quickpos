@@ -76,7 +76,7 @@ unset($_SESSION['form_data'], $_SESSION['errors']);
     </div>
   </section>
 
-  <!-- Features -->
+  <!-- Features Section-->
   <section id="features" class="features" data-aos="fade-up">
     <div class="container">
       <h2 class="section-title">Powerful features built for modern retailers</h2>
