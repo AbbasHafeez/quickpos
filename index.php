@@ -206,7 +206,7 @@ unset($_SESSION['form_data'], $_SESSION['errors']);
   </section>
 
 </main>
-
+<!-- Footer -->
 <footer class="site-footer" data-aos="fade-up">
   <div class="container footer-grid">
     <div>© <span id="year"></span> QuickPOS. All rights reserved.</div>
@@ -230,7 +230,7 @@ unset($_SESSION['form_data'], $_SESSION['errors']);
     hamburger.classList.toggle('active');
   });
 
-  // Pricing toggle (monthly/annual)
+  // Pricing toggle Section (monthly/annual)
   const priceToggle = document.getElementById('priceToggle');
   function updatePrices(isAnnual) {
     document.querySelectorAll('.amount').forEach(el => {
