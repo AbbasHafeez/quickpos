@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Thank you — QuickPOS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand"><div class="logo">Quick<span class="accent">POS</span></div></div>
+      <nav class="main-nav">
+        <a href="index.php">Home</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding:48px 0">
+    <div class="ty card glass">
+      <h1>Thanks — we received your message</h1>
+      <p>Our team will get back to you shortly. Meanwhile, check out our plans.</p>
+      <a href="index.php#pricing" class="btn btn-primary">View Pricing</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid"><div>© <span id="year"></span> QuickPOS</div></div>
+  </footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
