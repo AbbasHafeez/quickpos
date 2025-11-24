@@ -34,7 +34,7 @@ unset($_SESSION['form_data'], $_SESSION['errors']);
     <div class="brand">
       <div class="logo">Quick<span class="accent">POS</span></div>
     </div>
-
+<!-- Navbar Section -->
     <nav class="main-nav" id="mainNav">
       <a href="#features">Features</a>
       <a href="#pricing">Pricing</a>
@@ -49,7 +49,7 @@ unset($_SESSION['form_data'], $_SESSION['errors']);
 </header>
 
 <main>
-  <!-- Hero -->
+  <!-- Hero Section -->
   <section class="hero" data-aos="fade-in">
     <div class="container hero-grid">
       <div class="hero-left" data-aos="fade-right" data-aos-delay="200">
