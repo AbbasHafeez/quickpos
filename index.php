@@ -171,7 +171,7 @@ unset($_SESSION['form_data'], $_SESSION['errors']);
     </div>
   </section>
 
-  <!-- Contact Form -->
+  <!-- Contact Form Section -->
   <section id="contact" class="contact-section" data-aos="fade-up">
     <div class="container">
       <div class="contact-card card glass">
