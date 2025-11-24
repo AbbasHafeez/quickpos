@@ -110,7 +110,7 @@ unset($_SESSION['form_data'], $_SESSION['errors']);
     </div>
   </section>
 
-  <!-- Pricing -->
+  <!-- Pricing  Section-->
   <section id="pricing" class="pricing" data-aos="fade-up">
     <div class="container">
       <div class="pricing-header">
