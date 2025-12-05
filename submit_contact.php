@@ -34,6 +34,6 @@ $logEntry = [
 ];
 file_put_contents('messages.log', json_encode($logEntry) . PHP_EOL, FILE_APPEND);
 
-// Success: redirect to thank-you
+// Success: redirect to thank-you page
 header('Location: thank-you.html');
 exit;
