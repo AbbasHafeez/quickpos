@@ -25,7 +25,7 @@ if (!empty($errors)) {
     exit;
 }
 
-// Log to file
+// Log to file System
 $logEntry = [
     'time' => date('Y-m-d H:i:s'),
     'name' => $name,
